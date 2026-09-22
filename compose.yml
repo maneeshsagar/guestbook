@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./web
+    expose: ["80"]
+    x-clickdep-role: frontend
+  api:
+    build: ./api
+    expose: ["8080"]
+    x-clickdep-role: backend
