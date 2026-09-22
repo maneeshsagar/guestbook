@@ -8,5 +8,4 @@ services:
     expose: ["8080"]
     x-clickdep-role: backend
     environment:
-      WELCOME_MESSAGE: "Hello from v2"
-      LEGACY_FLAG: "will-be-removed-next-deploy"
+      WELCOME_MESSAGE: "v3 message, LEGACY_FLAG removed"
